@@ -34,7 +34,7 @@ static boolean exist(String[] a, String word){
   System.out.print("message:");
   String message=inp.nextLine();
   String check_this=str(message.split(" "));
-  String[] p={"fuck","motherfucker","fucker","idiot","dumb","stupid"}; //list of bad words, you can add words here.
+  String[] p={"fuck","idiot","dumb","stupid","asshole","jerk","choach","ass","shit","uwu","BTS","Nightcore","air"}; //list of bad words, you can add words here.
   boolean check=false;
   for(int n=0;n<check_this.length();n++){
    if(frm(n,check_this,p)==true){
